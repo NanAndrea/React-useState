@@ -9,7 +9,7 @@ function App() {
 
 
   const [tempC, setnewTemp] = useState(0);
-  const [tempF, setGrade] = useState(0);
+  const [tempF, setGrade] = useState(celsiusToFahrenheit(0));
 
 
 
@@ -66,8 +66,6 @@ function App() {
 
      
      <input  className={module.content} type="color"value={color} onChange = {handleChangeColor}/>
-
-     
 
      
      
